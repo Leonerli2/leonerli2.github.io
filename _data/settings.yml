@@ -1,0 +1,45 @@
+#-------------------------------
+# General Site Settings
+title: Leon Nachtrab
+logo: logo.svg # Placeholder logo - replace with your own!
+description: Electrical Engineering Graduate specializing in Embedded Systems - Master's Student at ETH Zürich
+
+
+#-------------------------------
+# Author Settings
+author:
+  name: Leon Nachtrab
+  image: LeonNachtrab2.JPG
+  say-hello: Hello, I'm <strong>Leon Nachtrab</strong>
+  bio: Electrical Engineering student at <strong>ETH Zürich</strong> with a passion for <strong>embedded systems</strong>, <strong>hardware-software integration</strong>, and innovative engineering solutions. When I'm not working on projects, you'll find me ski touring in the Alps, mountain biking, playing badminton, or experimenting in the kitchen.
+
+
+#-------------------------------
+# Contact links
+linkedin: https://www.linkedin.com/in/leon-nachtrab-561162211/ # LinkedIn profile
+twitter: # Not used
+facebook: # Not used
+dribbble: # Not used
+instagram: # Not used
+pinterest: # Not used
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: # Not used - comments disabled
+
+
+#-------------------------------
+# Instagram Feed
+instafeed: false # Instagram feed disabled
+instagram-profile: # Not used
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your Google Analytics ID here (e.g., G-XXXXXXXXXX or UA-XXXXXXXXX-X)
+
+
+#-------------------------------
+# Newsletter
+mailchimp: # Not used - newsletter disabled
