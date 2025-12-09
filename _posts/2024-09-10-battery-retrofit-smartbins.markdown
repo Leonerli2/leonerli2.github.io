@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Battery Retrofit & ETH Exploration Program
-date: 2024-09-10 14:00:00 +0100
+date: 2024-12-10 14:00:00 +0100
 image: BatteryRetrofit1.png
 tags: [Industry Collaboration, ETH Zürich, Innovation, Exploration Lab]
 ---

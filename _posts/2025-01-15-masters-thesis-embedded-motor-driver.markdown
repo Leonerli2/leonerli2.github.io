@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Embedded Control System for Bio-Inspired Saccadic Camera Motion
-date: 2025-01-15 12:00:00 +0100
+date: 2025-11-25 12:00:00 +0100
 image: EmbeddedControlSystem1.png
 tags: [Embedded Systems, Motor Control, Military Applications, Hardware Design]
 ---

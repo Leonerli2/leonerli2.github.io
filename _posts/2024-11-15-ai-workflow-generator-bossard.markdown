@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI Workflow Generator - Automating Assembly Instructions
-date: 2024-11-15 09:00:00 +0100
+date: 2025-03-29 09:00:00 +0100
 image: AIWorkflowGenerator.jpg
 tags: [AI, Python, Automation, Exploration Lab]
 ---
