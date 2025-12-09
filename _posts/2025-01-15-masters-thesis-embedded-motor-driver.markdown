@@ -6,11 +6,11 @@ image: EmbeddedControlSystem1.png
 tags: [Embedded Systems, Motor Control, Military Applications, Hardware Design]
 ---
 
-My Master's thesis represents the culmination of my academic journey at ETH Zürich, focusing on a cutting-edge application that bridges embedded systems, motor control, and defense technology. In collaboration with Arma Suisse, I developed a custom dual motor controller for high-performance Pan-Tilt Units (PTUs) specifically designed for drone detection in restricted airspace.
+My Master's thesis represents the culmination of my academic journey at ETH Zürich, focusing on a cutting-edge application that bridges embedded systems, motor control, and defense technology. I developed a custom dual motor controller for high-performance Pan-Tilt Units (PTUs) specifically designed for optical drone detection in restricted airspace.
 
 ## The Challenge
 
-Monitoring airspace for unauthorized drones is increasingly critical. Optical detection offers key advantages over radar: drones are small, lightweight, and can even be controlled via fiber optic cables to avoid RF detection. However, detecting them at long range requires zoom-capable optics with a narrow field of view. Deploying multiple fixed cameras becomes impractical as the zoom factor increases, making a single camera mounted on a PTU the more efficient solution.
+Monitoring airspace for unauthorized drones is increasingly critical. Optical detection offers key advantages over radar & RF, making it a complimentary solution. However, detecting UAV's at long range requires zoom-capable optics with a narrow field of view. Deploying multiple fixed cameras in every direction becomes impractical as the zoom factor increases, making a single camera mounted on a PTU the more efficient solution.
 
 The breakthrough lies in combining PTUs with event-based cameras (Dynamic Vision Sensors). Unlike traditional frame-based cameras, DVS cameras mimic the biological retina by recording asynchronous pixel intensity changes as discrete events. This provides high temporal resolution, low latency, wide dynamic range, and resilience to motion blur - perfect for detecting fast-moving targets.
 
@@ -20,7 +20,7 @@ But there's a problem: when a DVS camera rotates across a static environment, it
 
 An existing PTU prototype using off-the-shelf motor controllers couldn't achieve the required performance. The proprietary controller software restricted custom control algorithms, control cycle configuration, and critical parameters needed for saccadic motion tailored to DVS cameras.
 
-I completely redesigned the electronics while retaining the mechanical design, motors, and encoders. The goal: achieve 180° camera rotations in under 200ms with minimal settling time and overshoot, while respecting actuator and thermal constraints.
+The goal: achieve 180° camera rotations in under 200ms with minimal settling time and overshoot, while respecting actuator and thermal constraints.
 
 The heart of the solution is a fully custom dual-motor controller with dedicated PCB and firmware. I developed an open-source control framework enabling Software-in-the-Loop (SIL) simulation for rapid design iteration and fine-tuning of control strategies specifically optimized for event-based vision.
 
@@ -39,8 +39,8 @@ I developed a complete SIL simulation pipeline in MATLAB/Simulink for controller
 - Field-Oriented Control (FOC) for efficient BLDC motor operation
 - Custom trajectory planning optimized for saccadic motion patterns
 - Optimized PWM and control cycle frequencies for target performance
-- Active velocity threshold control to minimize settling time
-- Scanning pattern optimization balancing physical capabilities with detection requirements
+- Active velocity threshold control for any movement that may be required
+- Scanning pattern optimization balancing physical capabilities with approach probabilities of UAV's
 
 <div style="text-align: center; margin: 30px 0;">
   <img src="{{ site.baseurl }}/images/20251030_180132.png" alt="Custom dual motor driver PCB" style="max-width: 60%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
@@ -54,9 +54,9 @@ The custom motor controller successfully achieves the performance targets for sa
 - **Minimized Overshoot**: Optimized settling time reduces artificial DVS events
 - **Flexible Control**: Open-source framework enables custom scanning patterns and control strategies
 - **Robust Operation**: Comprehensive safety mechanisms prevent mechanical damage
-- **Multi-Protocol Interface**: Seamless integration via Ethernet, CAN, or USB
+- **Multi-Protocol Interface**: Seamless integration via Ethernet, CAN, or USB in the complete vision system
 
-The project demonstrates how tailored motor control hardware and control policies can enable advanced vision systems. Combining DVS cameras with optimized saccadic PTU motion opens new possibilities for efficient, high-performance drone detection - exactly the kind of cross-disciplinary challenge I find most engaging.
+The project demonstrates how tailored motor control hardware and control policies can enable advanced vision systems. Combining DVS cameras with optimized saccadic PTU motion opens new possibilities for efficient, high-performance drone detection. Exactly the kind of cross-disciplinary challenge I find most engaging.
 
 ## Technologies Used
 
@@ -66,7 +66,7 @@ The project demonstrates how tailored motor control hardware and control policie
 - **Simulation**: MATLAB/Simulink for control algorithm development
 - **Testing**: Custom test benches and instrumentation
 
-The experience gained from this thesis has been invaluable, reinforcing my desire to work on projects that require deep integration between software and hardware, where every millisecond and every micron counts.
+The experience gained from this thesis has been invaluable, reinforcing my desire to work on projects that require deep integration between software and hardware, where every millisecond counts.
 
 ## Project Demonstration
 

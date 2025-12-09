@@ -10,14 +10,13 @@ During the ETH Exploration Lab, I developed an AI-powered tool at Bossard AG tha
 
 ## The Problem
 
-Bossard's Smart Stations help factory workers by displaying step-by-step assembly instructions digitally. However, most companies already have assembly instructions as PDFs. Converting these PDFs into the digital format manually is extremely time-consuming - it can take hours per document and requires product experts to do it.
+Bossard's Smart Stations help factory workers by displaying step-by-step assembly instructions digitally. However, most companies already have assembly instructions as PDFs. Converting these PDFs into the digital format manually is extremely time-consuming.
 
 <div style="text-align: center; margin: 30px 0;">
   <img src="{{ site.baseurl }}/images/AIWorkflow1.png" alt="Bossard Smart Station showing assembly instructions" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   <p style="font-style: italic; color: #7F8C8D; margin-top: 10px;">Smart Station displaying digital assembly instructions</p>
 </div>
 
-This creates a major barrier: companies want to use smart stations, but the conversion effort stops them from adopting the technology.
 
 ## My Solution
 
@@ -35,7 +34,7 @@ The key insight was that context awareness is essential. Understanding how instr
 
 **User feedback is crucial**: I built a web application and tested it with actual Bossard customers. Their feedback showed both the potential and limitations, helping prioritize what to improve.
 
-**Video mode prototype**: I also prototyped a feature where assembly experts can record themselves while explaining the process verbally. The AI extracts instructions from their speech and captures key frames - useful for documenting knowledge that doesn't exist in written form.
+**Video mode prototype**: I also prototyped a feature where assembly experts can record themselves while explaining the process verbally. The AI extracts instructions from their speech and captures key frames, useful for documenting knowledge that doesn't exist in written form. A feature with huge potential for many customers. 
 
 ## Technologies Used
 

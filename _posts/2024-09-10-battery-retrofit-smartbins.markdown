@@ -6,16 +6,17 @@ image: BatteryRetrofit1.png
 tags: [Industry Collaboration, ETH Zürich, Innovation, Exploration Lab]
 ---
 
-One of the projects I worked on during my semester at ETH was a battery retrofit solution for Bossard's SmartBin system - an intelligent inventory management solution for industrial fasteners. The existing battery solution was both expensive and environmentally problematic, affecting thousands of units deployed globally.
+One of the projects I worked on was a battery retrofit solution for Bossard's SmartBin system, an intelligent inventory management solution for industrial fasteners. The existing battery solution was both expensive and environmentally problematic, affecting thousands of units deployed globally.
 
 ## The Battery Retrofit Project
 
 Working as part of the project team, we explored alternative battery technologies to find a more sustainable and cost-effective solution. The approach involved:
 
-- **Research & Analysis**: Evaluating different battery chemistries (Li-ion variants, LiFePO4) for performance, cost, and environmental impact
+- **Testing & Validation**: Conducting tests with many different technologies that may solve this problem
+- **Specific Research & Analysis**: Evaluating different battery chemistries (Li-ion variants, LiFePO4) for performance, cost, and environmental impact
 - **Stakeholder Interviews**: Understanding requirements from engineering and business perspectives
 - **Solution Development**: Designing and prototyping the retrofit solution with focus on backward compatibility
-- **Testing & Validation**: Conducting lifecycle tests under various operating conditions
+
 
 The final solution used lithium iron phosphate (LiFePO4) rechargeable batteries, achieving impressive results:
 - **50% reduction** in battery costs
@@ -25,9 +26,9 @@ The final solution used lithium iron phosphate (LiFePO4) rechargeable batteries,
 
 The project became the first from the Exploration Lab to advance to industrialization, with rollout scheduled for early 2026. You can read more in [Bossard's press release](https://www.bossard.com/ch-en/about-us/news-and-media/press-releases/bossard-exploration-lab/).
 
-## The ETH Exploration Program
+## The ETH Exploration Lab
 
-This project was part of my participation in the **ETH Exploration Program** - a selective interdisciplinary program designed to find and validate innovation opportunities at the intersection of academia and industry.
+This project was part of my participation in the **ETH Exploration Lab** - a selective interdisciplinary program designed to find and validate innovation opportunities at the intersection of academia and industry.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 30px 0;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
@@ -44,17 +45,9 @@ The 2024 cohort brought together 14 students working with four major Swiss compa
 - **VAT Group AG** - Vacuum valve technology
 - **V-ZUG AG** - Household appliances
 
-### Program Structure
-
-The 6-month program (October 2024 - March 2025) consisted of:
-- **18 weeks** of team-based project work rotating across all four partner companies
-- **6 weeks** of individual research on a specific topic (mine at Bossard AG)
-- Guidance from six lead engineers from ETH Feasibility Lab
-- Close collaboration with engineering and management experts from the companies
-
 ### What We Did
 
-As students, we were the key contributors driving forward and testing disruptive ideas through rapid, structured exploration. My responsibilities included:
+As students, we were testing disruptive ideas through rapid, structured exploration with the goal of driving forward through innovation. My responsibilities included:
 
 **Innovation & Design**
 - Applying structured innovation and creativity methods to explore technical feasibility
@@ -62,7 +55,7 @@ As students, we were the key contributors driving forward and testing disruptive
 - Developing electronic circuit designs for integrated system testing
 
 **Software Development**
-- Programming primarily in Python for control systems, data processing, and visualization
+- Programming primarily in Python for data processing and visualization
 - Developing AI-based applications for image, text, and data analysis
 - Creating interfaces and conversational assistants
 
@@ -79,16 +72,6 @@ As students, we were the key contributors driving forward and testing disruptive
 ## Why This Experience Matters
 
 The Exploration Program provided a unique opportunity to work on real industrial challenges while still being a student. Unlike typical academic projects, these had actual business constraints, real deadlines, and tangible impact.
-
-**What I Learned:**
-
-**Interdisciplinary Collaboration**: Working across four very different companies showed me how innovation challenges vary by industry, yet many problem-solving approaches are universal.
-
-**Rapid Innovation Methods**: Learning to quickly validate ideas, pivot when needed, and move from concept to working prototype in weeks rather than months.
-
-**Stakeholder Management**: Balancing the needs of engineers, business leaders, and end-users while keeping projects aligned with company goals.
-
-**Real-World Constraints**: Understanding that the "best" technical solution isn't always feasible when considering cost, manufacturing, supply chain, and business timelines.
 
 ## Impact
 
