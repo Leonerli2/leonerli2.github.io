@@ -12,6 +12,7 @@ What ignites my interest and lets me forget the time is a problem that requires 
 Outside of engineering, you'll find me ski touring in the Alps, mountain biking through trails, playing badminton, making music, or experimenting in the kitchen.
 
 > "To handle yourself, use your head. To handle others, use your heart." — Eleanor Roosevelt
+
 > "To handle everything else, use PID control." 
 
 <a href="{{ site.baseurl }}/assets/files/CV_Leon_Nachtrab.pdf" class="button" download>Download Full CV</a>
